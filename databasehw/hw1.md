@@ -1,5 +1,23 @@
 
-# 1.  WIP
+# 1.  postgres
+1. install
+	![[Pasted image 20231001010424.png]]
+	![[Pasted image 20231001015927.png]]
+1. CREATE USER
+![[Pasted image 20230930161434.png]]
+1. CREATE DATABASE
+![[Pasted image 20230930161423.png]]
+1. CREATE TABLE
+![[Pasted image 20230930161412.png]]
+1. SHOW DATABASES
+![[Pasted image 20230930161515.png]]
+1. SHOW TABLES
+![[Pasted image 20230930161336.png]]
+1. SHOW COLUMNS
+	![[Pasted image 20230930161607.png]]
+1. DESCRIBE
+	![[Pasted image 20230930161349.png]]
+
 # 2. main characteristics of database approach 
    1. DBMS儲存特定資料庫的描述，稱爲meta-data
    2. meta-data允許DBMS在不同資料庫軟體裏都能動
@@ -37,7 +55,13 @@
 |4.| Student| many-to-many |Course|
 |5.| Car| one-to-one |Engine|
 1. a student have many book, a book have one owner.
-1. a student have one advidor, a advisor have many student.
+1. a student have one advisor, a advisor have many student.
 1. a classroom have many wall, a wall can be two classroom wall.
 1. a student have many course, a course have many student.
 1. a car have one engine, a engine have only car.
+# 6.
+## a.
+student(<u>Student ID No.</u> , name,  address, ID No. ,cellphone, class, Department/Graduate Institute, suspension)
+Suspension(<u>No.</u> , student ID No. , Term of suspension, signature, signed by parent, date of resumption, date of application, application)
+## b.
+![[Pasted image 20231001015727.png]]
