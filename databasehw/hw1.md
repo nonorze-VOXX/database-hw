@@ -64,4 +64,4 @@
 student(<u>Student ID No.</u> , name,  address, ID No. ,cellphone, class, Department/Graduate Institute, suspension)
 Suspension(<u>No.</u> , student ID No. , Term of suspension, signature, signed by parent, date of resumption, date of application, application)
 ## b.
-![[Pasted image 20231001015727.png]]
+![[erDia.jpg]]
